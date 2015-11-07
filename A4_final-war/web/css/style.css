@@ -1,0 +1,41 @@
+* {
+    font-family: Calibri, Caimbra;
+    
+}
+
+
+section {
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+article {
+    background-color: #F1F1F1;
+    
+}
+
+div {
+    background-color: #FFFFFF;
+}
+
+div2 {
+    background-color: #F1F1F1;
+    padding: 10px;
+    margin: 15px;
+}
+
+h2 {
+    background-color: #F83D40;
+    color: #FFFFFF;
+}
+
+p1 {
+    font-style: italic;
+    margin-right: 130px;
+}
+
+p3 {
+    font-style: italic;
+    background-color: #41C5F3;
+}

@@ -106,9 +106,6 @@ public class Dog implements Serializable {
     public void setState(State state) {
         this.state = state;
     }
-
-    
-    
     
     @Override
     public String toString() {

@@ -40,6 +40,6 @@ public class State implements Serializable {
 
     @Override
     public String toString() {
-        return "State{" + "name=" + name + ", initials=" + initials + '}';
+        return name;
     }
 }

@@ -18,7 +18,8 @@ import javax.json.JsonReader;
  * @author 31240550
  */
 public class JSONParser {
-    public static List<Dog> parse (String content) {
+    
+    public static List<Dog> parse(String content) {
         List<Dog> dogs = new ArrayList<>();
         
         JsonReader jsonrd = Json.createReader(new StringReader(content));

@@ -26,6 +26,7 @@ public class Manager implements ManagerLocal {
 
     private static final String urlbase = "http://pedrocacique.com/lp3/getAllPets/";
     
+    @Override
     public List<Dog> teste() {
         List<Dog> lista = new ArrayList<>();
         
@@ -50,19 +51,5 @@ public class Manager implements ManagerLocal {
             Logger.getLogger(Manager.class.getName()).log(Level.SEVERE, null, ex);
         }
         return lista;
-    }
-    
-     public static String MD5(String md5) {
-        try {
-             java.security.MessageDigest md = java.security.MessageDigest.getInstance("MD5");
-             byte[] array = md.digest(md5.getBytes());
-             StringBuffer sb = new StringBuffer();
-             for (int i = 0; i < array.length; ++i) {
-               sb.append(Integer.toHexString((array[i] & 0xFF) | 0x100).substring(1,3));
-            }
-             return sb.toString();
-         } catch (java.security.NoSuchAlgorithmException e) {
-         }
-         return null;
     }
 }
